@@ -2,9 +2,8 @@
 int num = int.Parse(Console.ReadLine());
 
 int n = 0;
-int num1 = 0;
 while (n <= num)
 {
-    Console.WriteLine(num1 = n * n);
+    Console.WriteLine($"Число{n, 5}|Квадрат{n*n, 5}");
     n++;
 }
